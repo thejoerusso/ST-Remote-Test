@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D816DF8A16C5B13000214161 /* dangerLogoLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = D816DF8916C5B13000214161 /* dangerLogoLarge.png */; };
+		D816DF8C16C5B14D00214161 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D816DF8B16C5B14C00214161 /* Icon-72.png */; };
 		D8F36DAF16C58129003576C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F36DAE16C58129003576C7 /* UIKit.framework */; };
 		D8F36DB116C58129003576C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F36DB016C58129003576C7 /* Foundation.framework */; };
 		D8F36DB316C58129003576C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F36DB216C58129003576C7 /* CoreGraphics.framework */; };
@@ -28,6 +30,13 @@
 		D8F36DE016C5812A003576C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F36DB016C58129003576C7 /* Foundation.framework */; };
 		D8F36DE816C5812A003576C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8F36DE616C5812A003576C7 /* InfoPlist.strings */; };
 		D8F36DEB16C5812A003576C7 /* ST_Remote_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F36DEA16C5812A003576C7 /* ST_Remote_TestTests.m */; };
+		D8F36DF516C58991003576C7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F36DF416C58991003576C7 /* icon.png */; };
+		D8F36DFA16C593DE003576C7 /* 297-speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F36DF816C593DE003576C7 /* 297-speaker.png */; };
+		D8F36DFB16C593DE003576C7 /* 297-speaker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F36DF916C593DE003576C7 /* 297-speaker@2x.png */; };
+		D8F36E0216C5982B003576C7 /* 20-gear-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F36E0016C5982B003576C7 /* 20-gear-2.png */; };
+		D8F36E0316C5982B003576C7 /* 20-gear-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F36E0116C5982B003576C7 /* 20-gear-2@2x.png */; };
+		D8F36E0616C5A544003576C7 /* Linen - 1024x768 - iPad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8F36E0416C5A544003576C7 /* Linen - 1024x768 - iPad.jpg */; };
+		D8F36E0716C5A544003576C7 /* Linen - 2048x1536 - iPad@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8F36E0516C5A544003576C7 /* Linen - 2048x1536 - iPad@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D816DF8916C5B13000214161 /* dangerLogoLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dangerLogoLarge.png; sourceTree = "<group>"; };
+		D816DF8B16C5B14C00214161 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		D8F36DAA16C58129003576C7 /* ST Remote Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ST Remote Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F36DAE16C58129003576C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8F36DB016C58129003576C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,6 +80,13 @@
 		D8F36DE716C5812A003576C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8F36DE916C5812A003576C7 /* ST_Remote_TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ST_Remote_TestTests.h; sourceTree = "<group>"; };
 		D8F36DEA16C5812A003576C7 /* ST_Remote_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ST_Remote_TestTests.m; sourceTree = "<group>"; };
+		D8F36DF416C58991003576C7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D8F36DF816C593DE003576C7 /* 297-speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "297-speaker.png"; sourceTree = "<group>"; };
+		D8F36DF916C593DE003576C7 /* 297-speaker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "297-speaker@2x.png"; sourceTree = "<group>"; };
+		D8F36E0016C5982B003576C7 /* 20-gear-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear-2.png"; sourceTree = "<group>"; };
+		D8F36E0116C5982B003576C7 /* 20-gear-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear-2@2x.png"; sourceTree = "<group>"; };
+		D8F36E0416C5A544003576C7 /* Linen - 1024x768 - iPad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Linen - 1024x768 - iPad.jpg"; sourceTree = "<group>"; };
+		D8F36E0516C5A544003576C7 /* Linen - 2048x1536 - iPad@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Linen - 2048x1536 - iPad@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +116,8 @@
 		D8F36D9F16C58129003576C7 = {
 			isa = PBXGroup;
 			children = (
+				D816DF8B16C5B14C00214161 /* Icon-72.png */,
+				D816DF8916C5B13000214161 /* dangerLogoLarge.png */,
 				D8F36DB416C58129003576C7 /* ST Remote Test */,
 				D8F36DE316C5812A003576C7 /* ST Remote TestTests */,
 				D8F36DAD16C58129003576C7 /* Frameworks */,
@@ -147,8 +167,15 @@
 		D8F36DB516C58129003576C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8F36E0416C5A544003576C7 /* Linen - 1024x768 - iPad.jpg */,
+				D8F36E0516C5A544003576C7 /* Linen - 2048x1536 - iPad@2x.jpg */,
+				D8F36DF816C593DE003576C7 /* 297-speaker.png */,
+				D8F36E0016C5982B003576C7 /* 20-gear-2.png */,
+				D8F36E0116C5982B003576C7 /* 20-gear-2@2x.png */,
+				D8F36DF916C593DE003576C7 /* 297-speaker@2x.png */,
 				D8F36DB616C58129003576C7 /* ST Remote Test-Info.plist */,
 				D8F36DB716C58129003576C7 /* InfoPlist.strings */,
+				D8F36DF416C58991003576C7 /* icon.png */,
 				D8F36DBA16C5812A003576C7 /* main.m */,
 				D8F36DBC16C5812A003576C7 /* ST Remote Test-Prefix.pch */,
 				D8F36DC016C5812A003576C7 /* Default.png */,
@@ -258,6 +285,15 @@
 				D8F36DCF16C5812A003576C7 /* first@2x.png in Resources */,
 				D8F36DD416C5812A003576C7 /* second.png in Resources */,
 				D8F36DD616C5812A003576C7 /* second@2x.png in Resources */,
+				D8F36DF516C58991003576C7 /* icon.png in Resources */,
+				D8F36DFA16C593DE003576C7 /* 297-speaker.png in Resources */,
+				D8F36DFB16C593DE003576C7 /* 297-speaker@2x.png in Resources */,
+				D8F36E0216C5982B003576C7 /* 20-gear-2.png in Resources */,
+				D8F36E0316C5982B003576C7 /* 20-gear-2@2x.png in Resources */,
+				D8F36E0616C5A544003576C7 /* Linen - 1024x768 - iPad.jpg in Resources */,
+				D8F36E0716C5A544003576C7 /* Linen - 2048x1536 - iPad@2x.jpg in Resources */,
+				D816DF8A16C5B13000214161 /* dangerLogoLarge.png in Resources */,
+				D816DF8C16C5B14D00214161 /* Icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +440,7 @@
 				GCC_PREFIX_HEADER = "ST Remote Test/ST Remote Test-Prefix.pch";
 				INFOPLIST_FILE = "ST Remote Test/ST Remote Test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -415,6 +452,7 @@
 				GCC_PREFIX_HEADER = "ST Remote Test/ST Remote Test-Prefix.pch";
 				INFOPLIST_FILE = "ST Remote Test/ST Remote Test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -472,6 +510,7 @@
 				D8F36DF016C5812A003576C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8F36DF116C5812A003576C7 /* Build configuration list for PBXNativeTarget "ST Remote TestTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +519,7 @@
 				D8F36DF316C5812A003576C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
