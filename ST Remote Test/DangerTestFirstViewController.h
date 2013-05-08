@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class MHRotaryKnob;
+
 @interface DangerTestFirstViewController : UIViewController{
     
     /*IBOutlet and IBAction are purely there as markers that Interface Builder
@@ -32,6 +34,9 @@
     
 }
 
+@property (nonatomic, weak) IBOutlet MHRotaryKnob *volumeKnob;
+
+- (IBAction)volumeKnobDidChange;
 
 
 @end

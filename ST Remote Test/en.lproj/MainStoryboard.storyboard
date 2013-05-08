@@ -12,7 +12,7 @@
                         <rect key="frame" x="0.0" y="20" width="1024" height="699"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Linen - 2048x1536 - iPad@2x.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0et-J9-5kn"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Linen - 2048x1536 - iPad@2x.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0et-J9-5kn" propertyAccessControl="all"/>
                             <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kfl-sI-cBD">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="4DP-8u-jf2"/>
@@ -103,24 +103,43 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ACV-sH-ZNp" userLabel="volumeKnob" customClass="MHRotaryKnob">
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" image="Knob Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="i1J-KB-kEv">
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" none="YES" image="YES" notEnabled="YES"/>
+                                            <bool key="isElement" value="NO"/>
+                                        </accessibility>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="i1J-KB-kEv" firstAttribute="trailing" secondItem="ACV-sH-ZNp" secondAttribute="trailing" type="default" id="G3u-43-V35"/>
+                                    <constraint firstItem="i1J-KB-kEv" firstAttribute="top" secondItem="ACV-sH-ZNp" secondAttribute="top" type="default" id="ZHM-Yh-JRu"/>
+                                    <constraint firstItem="i1J-KB-kEv" firstAttribute="bottom" secondItem="ACV-sH-ZNp" secondAttribute="bottom" type="default" id="gun-0k-XoQ"/>
+                                    <constraint firstItem="i1J-KB-kEv" firstAttribute="leading" secondItem="ACV-sH-ZNp" secondAttribute="leading" type="default" id="jeI-QY-l4T"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Kpi-eg-7ZR" secondAttribute="trailing" constant="310" id="1pV-cl-hjZ"/>
                             <constraint firstItem="0et-J9-5kn" firstAttribute="bottom" secondItem="17" secondAttribute="bottom" type="default" id="5sB-1i-nWE"/>
                             <constraint firstItem="SBS-so-3hC" firstAttribute="bottom" secondItem="RY5-27-QDo" secondAttribute="bottom" type="default" id="9LK-Qm-gb6"/>
                             <constraint firstItem="Kpi-eg-7ZR" firstAttribute="top" secondItem="SBS-so-3hC" secondAttribute="top" type="default" id="BxU-49-FhM"/>
                             <constraint firstItem="Kfl-sI-cBD" firstAttribute="bottom" secondItem="RY5-27-QDo" secondAttribute="bottom" type="default" id="DDh-iO-S7r"/>
+                            <constraint firstItem="ACV-sH-ZNp" firstAttribute="centerY" secondItem="Kfl-sI-cBD" secondAttribute="centerY" type="default" id="DbS-f3-S01"/>
                             <constraint firstItem="0et-J9-5kn" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="G8X-g0-liW"/>
-                            <constraint firstItem="Kfl-sI-cBD" firstAttribute="top" secondItem="17" secondAttribute="top" constant="325" id="KyZ-3i-oBC"/>
+                            <constraint firstItem="Kfl-sI-cBD" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="436" id="H8Z-0t-Fkq"/>
+                            <constraint firstAttribute="trailing" secondItem="hz5-Ea-vhc" secondAttribute="trailing" constant="317" id="IvG-km-6w1"/>
                             <constraint firstItem="SBS-so-3hC" firstAttribute="top" secondItem="RY5-27-QDo" secondAttribute="top" type="default" id="LB2-st-caI"/>
+                            <constraint firstAttribute="trailing" secondItem="SBS-so-3hC" secondAttribute="trailing" constant="300" id="MEZ-jR-ziv"/>
+                            <constraint firstItem="ACV-sH-ZNp" firstAttribute="top" secondItem="17" secondAttribute="top" constant="270" id="Q7y-It-7w5"/>
                             <constraint firstItem="RY5-27-QDo" firstAttribute="top" secondItem="Kfl-sI-cBD" secondAttribute="top" type="default" id="TIq-Ae-ZW9"/>
-                            <constraint firstAttribute="trailing" secondItem="SBS-so-3hC" secondAttribute="trailing" constant="426" id="Vg0-HM-0Td"/>
                             <constraint firstItem="0et-J9-5kn" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="YEH-7h-oE1"/>
-                            <constraint firstItem="hz5-Ea-vhc" firstAttribute="centerX" secondItem="0et-J9-5kn" secondAttribute="centerX" type="default" id="bWU-qy-NqF"/>
-                            <constraint firstItem="RY5-27-QDo" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="431" id="eLh-f7-CXB"/>
+                            <constraint firstItem="ACV-sH-ZNp" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="184" id="ZYV-Xy-Bdi"/>
+                            <constraint firstAttribute="trailing" secondItem="RY5-27-QDo" secondAttribute="trailing" constant="417" id="dnX-Y7-hMv"/>
+                            <constraint firstAttribute="trailing" secondItem="Kpi-eg-7ZR" secondAttribute="trailing" constant="184" id="ex2-Fd-c7F"/>
                             <constraint firstItem="hz5-Ea-vhc" firstAttribute="top" secondItem="17" secondAttribute="top" constant="271" id="kIW-ME-PhI"/>
-                            <constraint firstItem="Kfl-sI-cBD" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="310" id="oNB-Ke-MdR"/>
                             <constraint firstItem="Kpi-eg-7ZR" firstAttribute="bottom" secondItem="SBS-so-3hC" secondAttribute="bottom" type="default" id="ujO-yq-hYA"/>
                             <constraint firstItem="0et-J9-5kn" firstAttribute="trailing" secondItem="17" secondAttribute="trailing" type="default" id="vI6-d4-ybW"/>
                         </constraints>
@@ -132,11 +151,12 @@
                         <outlet property="an2Button" destination="RY5-27-QDo" id="kdB-DM-k8T"/>
                         <outlet property="an3Button" destination="SBS-so-3hC" id="Ci7-oE-Vfv"/>
                         <outlet property="an4Button" destination="Kpi-eg-7ZR" id="uh3-Kq-66F"/>
+                        <outlet property="volumeKnob" destination="ACV-sH-ZNp" id="AeX-lc-rfG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3042" y="-100"/>
+            <point key="canvasLocation" x="3042" y="-747"/>
         </scene>
         <!--Danger Test Second View Controller - Setup-->
         <scene sceneID="13">
@@ -176,12 +196,14 @@
     <resources>
         <image name="20-gear-2.png" width="26" height="28"/>
         <image name="297-speaker.png" width="18" height="26"/>
+        <image name="Knob Background.png" width="160" height="160"/>
         <image name="Linen - 2048x1536 - iPad@2x.jpg" width="1536" height="2048"/>
     </resources>
     <classes>
         <class className="DangerTestFirstViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DangerTestFirstViewController.h"/>
             <relationships>
+                <relationship kind="action" name="rotaryKnobDidChange"/>
                 <relationship kind="outlet" name="alt1Button" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="alt2Button" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="an1Button" candidateClass="UIButton"/>
@@ -197,10 +219,14 @@
                 <relationship kind="outlet" name="soloButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="subButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="talkButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="volumeKnob" candidateClass="MHRotaryKnob"/>
             </relationships>
         </class>
         <class className="DangerTestSecondViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DangerTestSecondViewController.h"/>
+        </class>
+        <class className="MHRotaryKnob" superclassName="UIControl">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MHRotaryKnob.h"/>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
