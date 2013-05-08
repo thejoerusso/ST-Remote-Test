@@ -8,6 +8,7 @@
 
 #import "DangerTestFirstViewController.h"
 #import "MHRotaryKnob.h"
+#import "GCDAsyncUdpSocket.h"
 
 @interface DangerTestFirstViewController ()
 
@@ -19,7 +20,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-   
+    
+    //-----------------------------//
+    //UDP SETUP_-------------------//
+    //-----------------------------//
+    GCDAsyncUdpSocket *udpSocket ; // create this first part as a global variable
+    udpSocket = [[GCDAsyncUdpSocket alloc] initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
+    
+    NSData *data = [[NSString stringWithFormat:@"Hello World"]
+                             dataUsingEncoding:NSUTF8StringEncoding];
+                    [udpSocket sendData:data toHost:@"192.168.2.250" port:6000 withTimeout:-1 tag:1];
     //-----------------------------//
     //KNOB SETUP-------------------//
     //-----------------------------//

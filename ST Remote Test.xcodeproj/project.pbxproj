@@ -10,6 +10,7 @@
 		D816DF8A16C5B13000214161 /* dangerLogoLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = D816DF8916C5B13000214161 /* dangerLogoLarge.png */; };
 		D816DF8C16C5B14D00214161 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D816DF8B16C5B14C00214161 /* Icon-72.png */; };
 		D84DE04616FE477200917C78 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84DE04416FE477200917C78 /* MainStoryboard.storyboard */; };
+		D8785105173AFFC600174F21 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D8785104173AFFC600174F21 /* GCDAsyncUdpSocket.m */; };
 		D8A9B661173AD40300C4436A /* MHRotaryKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A9B660173AD40300C4436A /* MHRotaryKnob.m */; };
 		D8A9B662173AD40300C4436A /* MHRotaryKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A9B660173AD40300C4436A /* MHRotaryKnob.m */; };
 		D8A9B66B173AD49E00C4436A /* Knob Background.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A9B663173AD49E00C4436A /* Knob Background.png */; };
@@ -72,6 +73,8 @@
 		D816DF8916C5B13000214161 /* dangerLogoLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dangerLogoLarge.png; sourceTree = "<group>"; };
 		D816DF8B16C5B14C00214161 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		D84DE04516FE477200917C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "ST Remote Test/en.lproj/MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		D8785103173AFFC600174F21 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = ../GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		D8785104173AFFC600174F21 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = ../GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		D8A9B65F173AD40300C4436A /* MHRotaryKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHRotaryKnob.h; sourceTree = "<group>"; };
 		D8A9B660173AD40300C4436A /* MHRotaryKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHRotaryKnob.m; sourceTree = "<group>"; };
 		D8A9B663173AD49E00C4436A /* Knob Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Knob Background.png"; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 		D8F36DB416C58129003576C7 /* ST Remote Test */ = {
 			isa = PBXGroup;
 			children = (
+				D8785103173AFFC600174F21 /* GCDAsyncUdpSocket.h */,
+				D8785104173AFFC600174F21 /* GCDAsyncUdpSocket.m */,
 				D8A9B65F173AD40300C4436A /* MHRotaryKnob.h */,
 				D8A9B660173AD40300C4436A /* MHRotaryKnob.m */,
 				D84DE04416FE477200917C78 /* MainStoryboard.storyboard */,
@@ -391,6 +396,7 @@
 				D8F36DCB16C5812A003576C7 /* DangerTestFirstViewController.m in Sources */,
 				D8F36DD216C5812A003576C7 /* DangerTestSecondViewController.m in Sources */,
 				D8A9B661173AD40300C4436A /* MHRotaryKnob.m in Sources */,
+				D8785105173AFFC600174F21 /* GCDAsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
