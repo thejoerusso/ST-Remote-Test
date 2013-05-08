@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D816DF8A16C5B13000214161 /* dangerLogoLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = D816DF8916C5B13000214161 /* dangerLogoLarge.png */; };
 		D816DF8C16C5B14D00214161 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D816DF8B16C5B14C00214161 /* Icon-72.png */; };
+		D84DE04616FE477200917C78 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84DE04416FE477200917C78 /* MainStoryboard.storyboard */; };
 		D8F36DAF16C58129003576C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F36DAE16C58129003576C7 /* UIKit.framework */; };
 		D8F36DB116C58129003576C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F36DB016C58129003576C7 /* Foundation.framework */; };
 		D8F36DB316C58129003576C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F36DB216C58129003576C7 /* CoreGraphics.framework */; };
@@ -18,7 +19,6 @@
 		D8F36DC116C5812A003576C7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F36DC016C5812A003576C7 /* Default.png */; };
 		D8F36DC316C5812A003576C7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F36DC216C5812A003576C7 /* Default@2x.png */; };
 		D8F36DC516C5812A003576C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F36DC416C5812A003576C7 /* Default-568h@2x.png */; };
-		D8F36DC816C5812A003576C7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F36DC616C5812A003576C7 /* MainStoryboard.storyboard */; };
 		D8F36DCB16C5812A003576C7 /* DangerTestFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F36DCA16C5812A003576C7 /* DangerTestFirstViewController.m */; };
 		D8F36DCD16C5812A003576C7 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F36DCC16C5812A003576C7 /* first.png */; };
 		D8F36DCF16C5812A003576C7 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F36DCE16C5812A003576C7 /* first@2x.png */; };
@@ -52,6 +52,7 @@
 /* Begin PBXFileReference section */
 		D816DF8916C5B13000214161 /* dangerLogoLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dangerLogoLarge.png; sourceTree = "<group>"; };
 		D816DF8B16C5B14C00214161 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		D84DE04516FE477200917C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "ST Remote Test/en.lproj/MainStoryboard.storyboard"; sourceTree = "<group>"; };
 		D8F36DAA16C58129003576C7 /* ST Remote Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ST Remote Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F36DAE16C58129003576C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8F36DB016C58129003576C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +66,6 @@
 		D8F36DC016C5812A003576C7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D8F36DC216C5812A003576C7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D8F36DC416C5812A003576C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D8F36DC716C5812A003576C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D8F36DC916C5812A003576C7 /* DangerTestFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DangerTestFirstViewController.h; sourceTree = "<group>"; };
 		D8F36DCA16C5812A003576C7 /* DangerTestFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DangerTestFirstViewController.m; sourceTree = "<group>"; };
 		D8F36DCC16C5812A003576C7 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
@@ -148,9 +148,9 @@
 		D8F36DB416C58129003576C7 /* ST Remote Test */ = {
 			isa = PBXGroup;
 			children = (
+				D84DE04416FE477200917C78 /* MainStoryboard.storyboard */,
 				D8F36DBD16C5812A003576C7 /* DangerTestAppDelegate.h */,
 				D8F36DBE16C5812A003576C7 /* DangerTestAppDelegate.m */,
-				D8F36DC616C5812A003576C7 /* MainStoryboard.storyboard */,
 				D8F36DC916C5812A003576C7 /* DangerTestFirstViewController.h */,
 				D8F36DCA16C5812A003576C7 /* DangerTestFirstViewController.m */,
 				D8F36DCC16C5812A003576C7 /* first.png */,
@@ -280,7 +280,6 @@
 				D8F36DC116C5812A003576C7 /* Default.png in Resources */,
 				D8F36DC316C5812A003576C7 /* Default@2x.png in Resources */,
 				D8F36DC516C5812A003576C7 /* Default-568h@2x.png in Resources */,
-				D8F36DC816C5812A003576C7 /* MainStoryboard.storyboard in Resources */,
 				D8F36DCD16C5812A003576C7 /* first.png in Resources */,
 				D8F36DCF16C5812A003576C7 /* first@2x.png in Resources */,
 				D8F36DD416C5812A003576C7 /* second.png in Resources */,
@@ -294,6 +293,7 @@
 				D8F36E0716C5A544003576C7 /* Linen - 2048x1536 - iPad@2x.jpg in Resources */,
 				D816DF8A16C5B13000214161 /* dangerLogoLarge.png in Resources */,
 				D816DF8C16C5B14D00214161 /* Icon-72.png in Resources */,
+				D84DE04616FE477200917C78 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,20 +354,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D84DE04416FE477200917C78 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D84DE04516FE477200917C78 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		D8F36DB716C58129003576C7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D8F36DB816C58129003576C7 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D8F36DC616C5812A003576C7 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8F36DC716C5812A003576C7 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		D8F36DE616C5812A003576C7 /* InfoPlist.strings */ = {
@@ -440,7 +441,7 @@
 				GCC_PREFIX_HEADER = "ST Remote Test/ST Remote Test-Prefix.pch";
 				INFOPLIST_FILE = "ST Remote Test/ST Remote Test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -452,7 +453,7 @@
 				GCC_PREFIX_HEADER = "ST Remote Test/ST Remote Test-Prefix.pch";
 				INFOPLIST_FILE = "ST Remote Test/ST Remote Test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
