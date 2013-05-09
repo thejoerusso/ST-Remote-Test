@@ -19,7 +19,7 @@
                                     <constraint firstAttribute="width" constant="50" type="user" id="XgO-iJ-8aL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="1">
+                                <state key="normal" title="i1">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -38,7 +38,7 @@
                                     <constraint firstAttribute="width" constant="50" id="nX8-ZT-sdX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="2">
+                                <state key="normal" title="i2">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -57,7 +57,7 @@
                                     <constraint firstAttribute="width" constant="50" id="8iQ-1V-y4o"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="3">
+                                <state key="normal" title="i3">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -76,7 +76,7 @@
                                     <constraint firstAttribute="width" constant="50" id="nw5-9n-ge0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="4">
+                                <state key="normal" title="i4">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -203,7 +203,8 @@
         <class className="DangerTestFirstViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DangerTestFirstViewController.h"/>
             <relationships>
-                <relationship kind="action" name="rotaryKnobDidChange"/>
+                <relationship kind="action" name="inputSelect:"/>
+                <relationship kind="action" name="volumeKnobDidChange"/>
                 <relationship kind="outlet" name="alt1Button" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="alt2Button" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="an1Button" candidateClass="UIButton"/>

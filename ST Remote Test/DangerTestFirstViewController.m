@@ -16,6 +16,11 @@
 
 @implementation DangerTestFirstViewController
 
+//GLOBAL VARS---------------------//
+GCDAsyncUdpSocket *udpSocket ;
+int vol = 0;
+int newVol = 0;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -24,12 +29,13 @@
     //-----------------------------//
     //UDP SETUP_-------------------//
     //-----------------------------//
-    GCDAsyncUdpSocket *udpSocket ; // create this first part as a global variable
     udpSocket = [[GCDAsyncUdpSocket alloc] initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
     
     NSData *data = [[NSString stringWithFormat:@"Hello World"]
                              dataUsingEncoding:NSUTF8StringEncoding];
-                    [udpSocket sendData:data toHost:@"192.168.2.250" port:6000 withTimeout:-1 tag:1];
+    
+    [udpSocket sendData:data toHost:@"192.168.2.250" port:6000 withTimeout:-1 tag:1];//Test send
+    
     //-----------------------------//
     //KNOB SETUP-------------------//
     //-----------------------------//
@@ -51,9 +57,16 @@
               forControlEvents:UIControlEventValueChanged];
 }
 
-- (IBAction)volumeKnobDidChange
-{
-	NSLog(@"%.0f", self.volumeKnob.value);
+- (IBAction)volumeKnobDidChange{
+    newVol = (int)roundf(self.volumeKnob.value);//round to an int
+    if (newVol != vol) {
+        vol = newVol;
+        NSString *string = [NSString stringWithFormat:@"%d", vol];//convert to string
+        NSData* data = [string dataUsingEncoding:NSUTF8StringEncoding];//convert to NSData
+        [udpSocket sendData:data toHost:@"192.168.2.250" port:6000 withTimeout:-1 tag:1];
+        NSLog(@"VOL: %d", vol);
+    }
+   
 }
 
 - (IBAction)inputSelect:(id)sender{
@@ -65,6 +78,9 @@
     [an4Button setSelected:NO];
     [sender setSelected:YES];
     NSLog(@"SET %@", title);
+    
+    NSData* data = [title dataUsingEncoding:NSUTF8StringEncoding];
+    [udpSocket sendData:data toHost:@"192.168.2.250" port:6000 withTimeout:-1 tag:1];
 }
 
 - (void)didReceiveMemoryWarning

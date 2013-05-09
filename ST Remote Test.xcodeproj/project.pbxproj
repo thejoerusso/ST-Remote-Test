@@ -183,10 +183,6 @@
 		D8F36DB416C58129003576C7 /* ST Remote Test */ = {
 			isa = PBXGroup;
 			children = (
-				D8785103173AFFC600174F21 /* GCDAsyncUdpSocket.h */,
-				D8785104173AFFC600174F21 /* GCDAsyncUdpSocket.m */,
-				D8A9B65F173AD40300C4436A /* MHRotaryKnob.h */,
-				D8A9B660173AD40300C4436A /* MHRotaryKnob.m */,
 				D84DE04416FE477200917C78 /* MainStoryboard.storyboard */,
 				D8F36DBD16C5812A003576C7 /* DangerTestAppDelegate.h */,
 				D8F36DBE16C5812A003576C7 /* DangerTestAppDelegate.m */,
@@ -206,6 +202,10 @@
 		D8F36DB516C58129003576C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8785103173AFFC600174F21 /* GCDAsyncUdpSocket.h */,
+				D8785104173AFFC600174F21 /* GCDAsyncUdpSocket.m */,
+				D8A9B65F173AD40300C4436A /* MHRotaryKnob.h */,
+				D8A9B660173AD40300C4436A /* MHRotaryKnob.m */,
 				D8A9B663173AD49E00C4436A /* Knob Background.png */,
 				D8A9B664173AD49E00C4436A /* Knob Background@2x.png */,
 				D8A9B665173AD49E00C4436A /* Knob Disabled.png */,
