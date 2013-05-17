@@ -83,6 +83,20 @@ int newVol = 0;
     [udpSocket sendData:data toHost:@"192.168.2.250" port:6000 withTimeout:-1 tag:1];
 }
 
+- (IBAction)outPutSelect:(id)sender{
+    UIButton *button = (UIButton *)sender;
+    NSString *title = button.titleLabel.text.uppercaseString;
+    [mainButton setSelected:NO];
+    [alt1Button setSelected:NO];
+    [alt2Button setSelected:NO];
+    [subButton setSelected:NO];
+    [sender setSelected:YES];
+    NSLog(@"SET %@", title);
+    
+    NSData* data = [title dataUsingEncoding:NSUTF8StringEncoding];
+    [udpSocket sendData:data toHost:@"192.168.2.250" port:6000 withTimeout:-1 tag:1];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
